@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lektor-monkey-patch-admin"
+version = "0.1.0"
+description = ""
+authors = ["Uwe Kamper <me@uwekamper.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Lektor = "^3.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
